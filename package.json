@@ -49,8 +49,7 @@
 		"typing trainer",
 		"typing proficiency",
 		"real-time typing feedback"
-	]
-	,
+	],
 	"files": [
 		"index.js",
 		"utils",
@@ -64,6 +63,9 @@
 	"scripts": {
 		"dev": "nodemon index.js",
 		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"overrides": {
+		"minimatch": "^11.0.1"
 	},
 	"dependencies": {
 		"boxen": "^7.1.0",
